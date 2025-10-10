@@ -1,0 +1,398 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>System Solutions - IT Services & Software Development</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <!-- GSAP CDN -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="container">
+            <div class="nav-content">
+                <div class="nav-brand">
+                    <a href="#home">System Solutions</a>
+                </div>
+                <div class="nav-menu" id="nav-menu">
+                    <a href="#home" class="nav-link">Home</a>
+                    <a href="#about" class="nav-link">About</a>
+                    <a href="#services" class="nav-link">Services</a>
+                    <a href="#products" class="nav-link">Products</a>
+                    <a href="#contact" class="nav-link">Contact</a>
+                    <button class="btn btn--primary nav-cta">Get Started</button>
+                </div>
+                <div class="nav-toggle" id="nav-toggle">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+        <div class="hero-bg">
+            <!-- Floating background elements -->
+            <div class="floating-element floating-element--1"></div>
+            <div class="floating-element floating-element--2"></div>
+            <div class="floating-element floating-element--3"></div>
+            <div class="floating-element floating-element--4"></div>
+        </div>
+        
+        <div class="container">
+            <div class="hero-layout">
+                <!-- Left side - Hero content -->
+                <div class="hero-content">
+                    <h1 class="hero-title">
+                        <span class="hero-line">Build Business Software</span>
+                        <span class="hero-line highlight">You Actually Want</span>
+                    </h1>
+                    <p class="hero-subtitle">
+                        Comprehensive HMIS solutions and IT services trusted by hospitals and companies across India since 2005
+                    </p>
+                    <div class="hero-stats">
+                        <div class="stat">
+                            <strong>20+</strong>
+                            <span>Years Experience</span>
+                        </div>
+                        <div class="stat">
+                            <strong>500+</strong>
+                            <span>Projects Delivered</span>
+                        </div>
+                        <div class="stat">
+                            <strong>24/7</strong>
+                            <span>Support Available</span>
+                        </div>
+                    </div>
+                    <div class="hero-cta">
+                        <button class="btn btn--primary btn--lg" onclick="scrollToSection('services')">Explore Our Services</button>
+                        <button class="btn btn--outline btn--lg" onclick="scrollToSection('contact')">Get Started</button>
+                    </div>
+                </div>
+                
+                <!-- Right side - Dashboard image -->
+                <div class="hero-dashboard">
+                    <div class="dashboard-container">
+                        <div class="dashboard-image">
+                            <img src="https://pplx-res.cloudinary.com/image/upload/v1754716012/pplx_project_search_images/a0af563670bef007a19668f1b70ef1b8fe05356d.png" alt="Hospital Management Dashboard - Medcare HMIS System" />
+                        </div>
+                        <div class="dashboard-features">
+                            <div class="feature-badge feature-badge--1">
+                                <span>Real-time Patient Monitoring</span>
+                            </div>
+                            <div class="feature-badge feature-badge--2">
+                                <span>Advanced Analytics</span>
+                            </div>
+                            <div class="feature-badge feature-badge--3">
+                                <span>NABH Compliance</span>
+                            </div>
+                            <div class="feature-badge feature-badge--4">
+                                <span>24/7 System Monitoring</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="about" id="about">
+        <div class="container">
+            <div class="section-header">
+                <h2>Discover Your Technology Partner</h2>
+                <p>Since 2005, System Solutions has been at the forefront of healthcare technology and software development, delivering innovative HMIS solutions and comprehensive IT services to organizations across India.</p>
+            </div>
+            <div class="about-grid">
+                <div class="about-text">
+                    <p>With over two decades of experience, we specialize in creating robust Hospital Management Information Systems (HMIS) that are NABH and ABDM certified, ensuring compliance with the highest healthcare standards.</p>
+                    <p>Our expertise extends beyond healthcare to encompass web development, custom software solutions, and complete IT outsourcing services that drive business growth and operational efficiency.</p>
+                </div>
+                <div class="about-highlights">
+                    <div class="highlight-item">
+                        <h3>Mission</h3>
+                        <p>To provide innovative, reliable, and cost-effective technology solutions that empower businesses to achieve their full potential.</p>
+                    </div>
+                    <div class="highlight-item">
+                        <h3>Vision</h3>
+                        <p>To be the leading technology partner for healthcare and business solutions across India and beyond.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section class="services" id="services">
+        <div class="container">
+            <div class="section-header">
+                <h2>Explore Our Products & Services</h2>
+                <p>Comprehensive technology solutions designed to meet your business needs</p>
+            </div>
+            <div class="services-grid">
+                <div class="service-card">
+                    <div class="service-icon">
+                        <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"></path>
+                            <circle cx="12" cy="7" r="4"></circle>
+                        </svg>
+                    </div>
+                    <h3>Centralized HMIS System</h3>
+                    <p>Fully integrated Hospital Management Information System for NABH accredited hospitals. Secure and convenient hospital monitoring.</p>
+                    <button class="btn btn--outline">More Details</button>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">
+                        <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <polyline points="16 18 22 12 16 6"></polyline>
+                            <polyline points="8 6 2 12 8 18"></polyline>
+                        </svg>
+                    </div>
+                    <h3>Professional Web Development</h3>
+                    <p>Custom web applications, responsive websites, and digital solutions for modern businesses.</p>
+                    <button class="btn btn--outline">More Details</button>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">
+                        <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <rect x="2" y="3" width="20" height="14" rx="2" ry="2"></rect>
+                            <line x1="8" y1="21" x2="16" y2="21"></line>
+                            <line x1="12" y1="17" x2="12" y2="21"></line>
+                        </svg>
+                    </div>
+                    <h3>IT Outsourcing Services</h3>
+                    <p>Complete IT solutions, support, and consulting services to enhance your business potential.</p>
+                    <button class="btn btn--outline">More Details</button>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">
+                        <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <circle cx="12" cy="12" r="3"></circle>
+                            <path d="M19.4 15a1.65 1.65 0 0 0 .33 1.82l.06.06a2 2 0 0 1 0 2.83 2 2 0 0 1-2.83 0l-.06-.06a1.65 1.65 0 0 0-1.82-.33 1.65 1.65 0 0 0-1 1.51V21a2 2 0 0 1-2 2 2 2 0 0 1-2-2v-.09A1.65 1.65 0 0 0 9 19.4a1.65 1.65 0 0 0-1.82.33l-.06.06a2 2 0 0 1-2.83 0 2 2 0 0 1 0-2.83l.06-.06a1.65 1.65 0 0 0 .33-1.82 1.65 1.65 0 0 0-1.51-1H3a2 2 0 0 1-2-2 2 2 0 0 1 2-2h.09A1.65 1.65 0 0 0 4.6 9a1.65 1.65 0 0 0-.33-1.82l-.06-.06a2 2 0 0 1 0-2.83 2 2 0 0 1 2.83 0l.06.06a1.65 1.65 0 0 0 1.82.33H9a1.65 1.65 0 0 0 1-1.51V3a2 2 0 0 1 2-2 2 2 0 0 1 2 2v.09a1.65 1.65 0 0 0 1 1.51 1.65 1.65 0 0 0 1.82-.33l.06-.06a2 2 0 0 1 2.83 0 2 2 0 0 1 0 2.83l-.06.06a1.65 1.65 0 0 0-.33 1.82V9a1.65 1.65 0 0 0 1.51 1H21a2 2 0 0 1 2 2 2 2 0 0 1-2 2h-.09a1.65 1.65 0 0 0-1.51 1z"></path>
+                        </svg>
+                    </div>
+                    <h3>Custom Software Development</h3>
+                    <p>Tailored applications for various industries including healthcare, e-commerce, and enterprise solutions.</p>
+                    <button class="btn btn--outline">More Details</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Products Section -->
+    <section class="products" id="products">
+        <div class="container">
+            <div class="section-header">
+                <h2>Our Featured Products</h2>
+                <p>Innovative software solutions that drive business success</p>
+            </div>
+            <div class="products-grid">
+                <div class="product-card">
+                    <h3>Hospital Management System</h3>
+                    <p>NABH and ABDM certified HMIS with complete hospital functionality</p>
+                    <div class="product-features">
+                        <span class="feature-tag">NABH Certified</span>
+                        <span class="feature-tag">ABDM Compliant</span>
+                    </div>
+                </div>
+                <div class="product-card">
+                    <h3>Medicine Shop Management</h3>
+                    <p>Complete pharmacy solution with stock management and GST billing</p>
+                    <div class="product-features">
+                        <span class="feature-tag">GST Ready</span>
+                        <span class="feature-tag">Inventory Control</span>
+                    </div>
+                </div>
+                <div class="product-card">
+                    <h3>Online Hotel Booking</h3>
+                    <p>Popular hotel booking platform with instant reservations</p>
+                    <div class="product-features">
+                        <span class="feature-tag">Real-time Booking</span>
+                        <span class="feature-tag">Payment Gateway</span>
+                    </div>
+                </div>
+                <div class="product-card">
+                    <h3>Matrimonial Platform</h3>
+                    <p>Comprehensive matrimonial website with 88.61% success ratio</p>
+                    <div class="product-features">
+                        <span class="feature-tag">88.61% Success</span>
+                        <span class="feature-tag">Advanced Matching</span>
+                    </div>
+                </div>
+                <div class="product-card">
+                    <h3>Online Tutoring System</h3>
+                    <p>Platform connecting tutors and students with earning potential</p>
+                    <div class="product-features">
+                        <span class="feature-tag">Live Sessions</span>
+                        <span class="feature-tag">Progress Tracking</span>
+                    </div>
+                </div>
+                <div class="product-card">
+                    <h3>Job Portal System</h3>
+                    <p>Job matching platform for employers and job seekers</p>
+                    <div class="product-features">
+                        <span class="feature-tag">Smart Matching</span>
+                        <span class="feature-tag">Resume Builder</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section class="features">
+        <div class="container">
+            <div class="section-header">
+                <h2>Why Choose System Solutions</h2>
+                <p>Excellence in technology, commitment to service</p>
+            </div>
+            <div class="features-grid">
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <rect x="2" y="3" width="20" height="14" rx="2" ry="2"></rect>
+                            <line x1="8" y1="21" x2="16" y2="21"></line>
+                            <line x1="12" y1="17" x2="12" y2="21"></line>
+                        </svg>
+                    </div>
+                    <h3>Own Server Facilities</h3>
+                    <p>100% uptime with secure hosting infrastructure</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"></polygon>
+                        </svg>
+                    </div>
+                    <h3>Latest Technologies</h3>
+                    <p>Always updated with modern development practices</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <line x1="12" y1="1" x2="12" y2="23"></line>
+                            <path d="M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"></path>
+                        </svg>
+                    </div>
+                    <h3>Affordable Pricing</h3>
+                    <p>Cost-effective solutions for businesses of all sizes</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <circle cx="12" cy="12" r="10"></circle>
+                            <polyline points="12 6 12 12 16 14"></polyline>
+                        </svg>
+                    </div>
+                    <h3>24x7 Support</h3>
+                    <p>Round-the-clock technical assistance and helpline</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact" id="contact">
+        <div class="container">
+            <div class="section-header">
+                <h2>Get In Touch</h2>
+                <p>Ready to transform your business with technology? Let's discuss your requirements.</p>
+            </div>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <h3>Contact Information</h3>
+                    <div class="contact-item">
+                        <strong>Email:</strong>
+                        <a href="mailto:info@systsol.com">info@systsol.com</a>
+                    </div>
+                    <div class="contact-item">
+                        <strong>Experience:</strong>
+                        <span>20+ years in IT services</span>
+                    </div>
+                    <div class="contact-item">
+                        <strong>Specialization:</strong>
+                        <span>HMIS, Web Development, IT Outsourcing</span>
+                    </div>
+                    <div class="contact-item">
+                        <strong>Support:</strong>
+                        <span>24/7 Technical Assistance</span>
+                    </div>
+                </div>
+                <form class="contact-form" id="contact-form">
+                    <div class="form-group">
+                        <label class="form-label" for="name">Full Name</label>
+                        <input type="text" id="name" name="name" class="form-control" required>
+                    </div>
+                    <div class="form-group">
+                        <label class="form-label" for="email">Email Address</label>
+                        <input type="email" id="email" name="email" class="form-control" required>
+                    </div>
+                    <div class="form-group">
+                        <label class="form-label" for="phone">Phone Number</label>
+                        <input type="tel" id="phone" name="phone" class="form-control">
+                    </div>
+                    <div class="form-group">
+                        <label class="form-label" for="service">Service Interest</label>
+                        <select id="service" name="service" class="form-control">
+                            <option value="">Select a service</option>
+                            <option value="hmis">Hospital Management System</option>
+                            <option value="web-development">Web Development</option>
+                            <option value="it-outsourcing">IT Outsourcing</option>
+                            <option value="custom-software">Custom Software Development</option>
+                            <option value="other">Other</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label class="form-label" for="message">Message</label>
+                        <textarea id="message" name="message" class="form-control" rows="4" placeholder="Tell us about your project requirements..."></textarea>
+                    </div>
+                    <button type="submit" class="btn btn--primary btn--full-width">Send Message</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-brand">
+                    <h3>System Solutions</h3>
+                    <p>Your trusted technology partner since 2005</p>
+                </div>
+                <div class="footer-links">
+                    <div class="footer-section">
+                        <h4>Services</h4>
+                        <a href="#services">HMIS System</a>
+                        <a href="#services">Web Development</a>
+                        <a href="#services">IT Outsourcing</a>
+                        <a href="#services">Custom Software</a>
+                    </div>
+                    <div class="footer-section">
+                        <h4>Company</h4>
+                        <a href="#about">About Us</a>
+                        <a href="#products">Products</a>
+                        <a href="#contact">Contact</a>
+                    </div>
+                    <div class="footer-section">
+                        <h4>Contact</h4>
+                        <a href="mailto:info@systsol.com">info@systsol.com</a>
+                        <span>24/7 Support Available</span>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 System Solutions. All rights reserved. | Established 2005</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="app.js"></script>
+</body>
+</html>
