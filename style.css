@@ -797,6 +797,7 @@ body {
 
 .nav-link {
   color: var(--color-text-secondary);
+  font-size: 1.3rem;
   text-decoration: none;
   font-weight: var(--font-weight-medium);
   transition: color var(--duration-fast) var(--ease-standard);
@@ -924,6 +925,7 @@ body {
 
 .hero-title {
   font-size: clamp(var(--font-size-3xl), 4.5vw, 56px);
+   font-family: "Bricolage Grotesque", sans-serif;
   font-weight: var(--font-weight-bold);
   line-height: var(--line-height-tight);
   margin-bottom: var(--space-24);
@@ -947,7 +949,8 @@ body {
 
 .hero-subtitle {
   font-size: var(--font-size-lg);
-  color: var(--color-text-secondary);
+  font-family: "Edu VIC WA NT Hand", cursive;
+  color: #ffff;
   margin-bottom: var(--space-32);
   line-height: 1.6;
   /* Make visible by default */
@@ -971,7 +974,8 @@ body {
 
 .stat strong {
   display: block;
-  font-size: var(--font-size-2xl);
+
+  font-size: var(--font-size-4xl);
   font-weight: var(--font-weight-bold);
   color: var(--color-primary);
   margin-bottom: var(--space-4);
@@ -979,8 +983,9 @@ body {
 
 .stat span {
   font-size: var(--font-size-sm);
-  color: var(--color-text-secondary);
+  /* color: var(--color-text-secondary); */
   text-transform: uppercase;
+  color: #ffff;
   letter-spacing: 0.05em;
 }
 

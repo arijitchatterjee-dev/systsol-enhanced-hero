@@ -1,0 +1,223 @@
+{
+  "totalCssClasses": 110,
+  "totalCssIds": 0,
+  "usedHtmlClasses": 116,
+  "usedHtmlIds": 15,
+  "unusedClasses": [
+    {
+      "name": "btn--secondary",
+      "selectors": [
+        ".btn--secondary",
+        ".btn--secondary:hover",
+        ".btn--secondary:active"
+      ]
+    },
+    {
+      "name": "btn--sm",
+      "selectors": [
+        ".btn--sm"
+      ]
+    },
+    {
+      "name": "card",
+      "selectors": [
+        "/* Card component */\n.card",
+        ".card:hover"
+      ]
+    },
+    {
+      "name": "card__body",
+      "selectors": [
+        ".card__body"
+      ]
+    },
+    {
+      "name": "card__header",
+      "selectors": [
+        ".card__header"
+      ]
+    },
+    {
+      "name": "card__footer",
+      "selectors": [
+        ".card__footer"
+      ]
+    },
+    {
+      "name": "status",
+      "selectors": [
+        "/* Status indicators - simplified with CSS variables */\n.status"
+      ]
+    },
+    {
+      "name": "status--success",
+      "selectors": [
+        ".status--success"
+      ]
+    },
+    {
+      "name": "status--error",
+      "selectors": [
+        ".status--error"
+      ]
+    },
+    {
+      "name": "status--warning",
+      "selectors": [
+        ".status--warning"
+      ]
+    },
+    {
+      "name": "status--info",
+      "selectors": [
+        ".status--info"
+      ]
+    },
+    {
+      "name": "flex",
+      "selectors": [
+        "/* Utility classes */\n.flex"
+      ]
+    },
+    {
+      "name": "flex-col",
+      "selectors": [
+        ".flex-col"
+      ]
+    },
+    {
+      "name": "items-center",
+      "selectors": [
+        ".items-center"
+      ]
+    },
+    {
+      "name": "justify-center",
+      "selectors": [
+        ".justify-center"
+      ]
+    },
+    {
+      "name": "justify-between",
+      "selectors": [
+        ".justify-between"
+      ]
+    },
+    {
+      "name": "gap-4",
+      "selectors": [
+        ".gap-4"
+      ]
+    },
+    {
+      "name": "gap-8",
+      "selectors": [
+        ".gap-8"
+      ]
+    },
+    {
+      "name": "gap-16",
+      "selectors": [
+        ".gap-16"
+      ]
+    },
+    {
+      "name": "m-0",
+      "selectors": [
+        ".m-0"
+      ]
+    },
+    {
+      "name": "mt-8",
+      "selectors": [
+        ".mt-8"
+      ]
+    },
+    {
+      "name": "mb-8",
+      "selectors": [
+        ".mb-8"
+      ]
+    },
+    {
+      "name": "mx-8",
+      "selectors": [
+        ".mx-8"
+      ]
+    },
+    {
+      "name": "my-8",
+      "selectors": [
+        ".my-8"
+      ]
+    },
+    {
+      "name": "p-0",
+      "selectors": [
+        ".p-0"
+      ]
+    },
+    {
+      "name": "py-8",
+      "selectors": [
+        ".py-8"
+      ]
+    },
+    {
+      "name": "px-8",
+      "selectors": [
+        ".px-8"
+      ]
+    },
+    {
+      "name": "py-16",
+      "selectors": [
+        ".py-16"
+      ]
+    },
+    {
+      "name": "px-16",
+      "selectors": [
+        ".px-16"
+      ]
+    },
+    {
+      "name": "block",
+      "selectors": [
+        ".block"
+      ]
+    },
+    {
+      "name": "sr-only",
+      "selectors": [
+        "/* Accessibility */\n.sr-only"
+      ]
+    },
+    {
+      "name": "success-message",
+      "selectors": [
+        "/* Success message styles */\n.success-message",
+        ".success-message.show"
+      ]
+    },
+    {
+      "name": "show",
+      "selectors": [
+        ".success-message.show"
+      ]
+    },
+    {
+      "name": "animate-in",
+      "selectors": [
+        "/* Animation classes for GSAP */\n.animate-in"
+      ]
+    },
+    {
+      "name": "parallax-container",
+      "selectors": [
+        "/* Parallax container */\n.parallax-container"
+      ]
+    }
+  ],
+  "unusedIds": []
+}
